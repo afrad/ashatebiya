@@ -1,0 +1,19 @@
+<ashatebiya>
+    <quari name="نافع" nr="1" >
+        <symbol harf="أ" />
+        <rawi name="قالُون" nr="11" >
+            <symbol harf="ب" />
+        </rawi>
+        <rawi name="ورش" nr="12" >
+            <symbol harf="ج" />
+        </rawi>
+    </quari>
+    <bayt nr="1">
+        <half nr="1">بَدَأْتُ بِبِسْمِ اْللهُ فيِ النَّظْمِ أوَّلاَ</half>
+        <half nr="2">تَبَارَكَ رَحْمَاناً رَحِيماً وَمَوْئِلَا</half>
+    </bayt>
+    <bayt nr="100">
+        <half nr="1">وَ<rule nr="100">بَسْمَلَ بَيْنَ السُّورَتَيْن</rule><author nr="11">بِ</author>سُنَّةٍ</half>
+        <half nr="2">رِجَالٌ نَمَوْهاَ دِرْيَةً وَتَحَمُّلَا</half>
+    </bayt>
+</ashatebiya>
