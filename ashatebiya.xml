@@ -8,6 +8,25 @@
             <symbol harf="ج" />
         </rawi>
     </quari>
+    <quari name="ابْنُ كَثِيرٍ" nr="2" >
+        <symbol harf="َد" />
+        <rawi name="الْبَزِّي" nr="21" >
+            <symbol harf="ه" />
+        </rawi>
+        <rawi name="قُنْبُل" nr="22" >
+            <symbol harf="ز" />
+        </rawi>
+    </quari>
+    <quari name="أَبُو عَمْرٍو" nr="3" >
+        <symbol harf="َح" />
+        <rawi name="الدّورِي" nr="31" >
+            <symbol harf="ط" />
+        </rawi>
+        <rawi name="السّوسيّ" nr="32" >
+            <symbol harf="ى" />
+        </rawi>
+    </quari>
+
     <bayt nr="1">
         <half nr="1">بَدَأْتُ بِبِسْمِ اْللهُ فيِ النَّظْمِ أوَّلاَ</half>
         <half nr="2">تَبَارَكَ رَحْمَاناً رَحِيماً وَمَوْئِلَا</half>
