@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes" version="5"/>
+<!--    <xsl:strip-space elements="bayt half author rule" />-->
     <xsl:template match="/">
         <html>
             <body>
@@ -12,26 +13,31 @@
     <xsl:template match="/">
         <html>
             <body dir="rtl">
-
-                <xsl:for-each select="/ashatebiya/bayt/half">
+                <xsl:for-each select="/ashatebiya/bayt">
                     <p>
-                        <xsl:for-each select="text()|node()">
-                            <xsl:choose>
+                        <xsl:value-of select="@nr"/>- 
+                        <xsl:for-each select="half">
+                            <xsl:for-each select="text()|node()">
+                                <xsl:choose>
+                                    <xsl:when test=". = node() and name()='author'">
+                                        <span style="color:#00ff00">
+                                            <xsl:value-of select="text()"/>
+                                        </span>
+                                    </xsl:when>
+                                    <xsl:when test=". = node() and name()='rule'">
+                                        <span style="color:#ff0000">
+                                            <xsl:value-of select="text()"/>
+                                        </span>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
 
-
-                                <xsl:when test=". = not(node())">
-                                    <xsl:value-of select="."/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <span style="color:#00ff00">
-                                        <xsl:value-of select="text()"/>
-                                    </span>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                            <!--                                <xsl:value-of select="./preceding::text()[1]"/>-->
+                            </xsl:for-each>
+                            &#160;
                         </xsl:for-each>
                     </p>
-
 
                 </xsl:for-each>
 
