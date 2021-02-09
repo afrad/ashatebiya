@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes" version="5"/>
-<!--    <xsl:strip-space elements="bayt half author rule" />-->
     <xsl:template match="/">
         <html>
             <body>
