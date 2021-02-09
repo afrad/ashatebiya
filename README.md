@@ -1,8 +1,8 @@
-##Workflow
+## Workflow
 
-###xml + (xslt or python ...) -> html, doc, xsl ... 
+### xml + (xslt or python ...) -> html, doc, xsl ... 
 
-####xml file
+#### xml file
 Source file, defines:
 quaris, rawi, tariq: with their names, roumouz, order, place ...  
 - Will be used as source for the transformation programes
